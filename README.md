@@ -1,2 +1,2 @@
-# a
-bcdefghijklmnop rest of the alphabet la la la
+# WizzyHub
+Welcome to wizzyhub, a simple gameloader that has sites that are kinda-ish unblockable, cya
