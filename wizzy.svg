@@ -118,19 +118,33 @@ footer {
 <html:style>
 html, body {
   width: 100% !important;
-  min-width: 100% !important;
   height: 100% !important;
+  min-width: 100% !important;
   min-height: 100% !important;
   margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
   box-sizing: border-box !important;
 }
 body {
-  overflow: auto !important;
+  background: #07090c !important;
+}
+#scrollbox {
+  width: 100% !important;
+  height: 100vh !important;
+  max-height: 100vh !important;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+  box-sizing: border-box !important;
+  scrollbar-width: auto !important;
+}
+#scrollbox::-webkit-scrollbar {
+  width: 14px !important;
 }
 </html:style></html:head>
 
     <html:body xmlns:html="http://www.w3.org/1999/xhtml">
-<html:div class="wrap">
+<html:div id="scrollbox"><html:div class="wrap">
     <html:header>
         <html:h1>Wizzy <html:span>Hub</html:span></html:h1>
         <html:h4>Feeling Tuff Today</html:h4>
@@ -408,7 +422,7 @@ body {
     var search = document.getElementById("search");
     var games = Array.prototype.slice.call(document.querySelectorAll(".game"));
     var empty = document.getElementById("empty");
-    if (!search || !games.length) return;
+    if (!search) return;
 
     function filter() {
       var q = (search.value || "").trim().toLowerCase();
@@ -426,7 +440,6 @@ body {
     search.addEventListener("change", filter);
     filter();
   }
-
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);
   } else {
@@ -434,7 +447,7 @@ body {
   }
 })();
 </html:script>
-</html:body>
+</html:div></html:body>
 
   </foreignObject>
 </svg>
