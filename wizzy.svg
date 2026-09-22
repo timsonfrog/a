@@ -147,7 +147,7 @@ body {
 <html:div id="scrollbox"><html:div class="wrap">
     <html:header>
         <html:h1>Wizzy <html:span>Hub</html:span></html:h1>
-        <html:h4>Feeling Tuff Today</html:h4>
+        <html:h4>Feeling Tuff Today (Gamer edition!)</html:h4>
     </html:header>
 
     <html:input id="search" class="search" type="search" placeholder="🔎 Search the hub..." autocomplete="off"/>
@@ -174,8 +174,8 @@ body {
 <html:a class="game" href="https://cdn.jsdelivr.net/gh/dorianhagar506-coder/idk-1tlupq@main/DarkNUX-1-j78t.svg" target="_blank" rel="noopener noreferrer">
         <html:span class="dot"/><html:span>DarkNUX</html:span><html:span class="arrow">↗</html:span>
     </html:a>
-<html:a class="game" href="https://cdn.jsdelivr.net/gh/dorianhagar506-coder/mizu--lrq2df@main/mizu-4-aqng.svg" target="_blank" rel="noopener noreferrer">
-        <html:span class="dot"/><html:span>Mizu</html:span><html:span class="arrow">↗</html:span>
+<html:a class="game" href="example.com" target="_blank" rel="noopener noreferrer">
+        <html:span class="dot"/><html:span>Blank (mizu was here but rip mizu</html:span><html:span class="arrow">↗</html:span>
     </html:a>
 <html:a class="game" href="https://cdn.jsdelivr.net/gh/zaka13alt/bio@main/p2p.svg" target="_blank" rel="noopener noreferrer">
         <html:span class="dot"/><html:span>P2P / Emulator</html:span><html:span class="arrow">↗</html:span>
